@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
 
 
-      <section className="bg-warning" style={{background: 'black !important'}}>
+      <section className="topsect" >
 	<div className="container py-5">
 		<div className="row">
 			<div className="col-lg-5 col-md-12 col-12 col-sm-12 pt-5 d-block d-lg-none d-xl-none">
@@ -90,7 +90,7 @@ export default function Home() {
 </section>
 
 <div className="container py-3 mx-auto">
-	<img className="d-block mx-auto " src="images/icon/sc.png"/>
+	<img className="d-block mx-auto width-100" src="images/icon/sc.png"/>
 </div>
 
 <section className="  px-1 bg-dark" style={{marginTop: '20px !important'}}>
@@ -106,7 +106,7 @@ export default function Home() {
  
  <div classname="col-lg-6 col-md-7 col-12 col-sm-12">
         <div>
-          <h3 classname="fw-700 color-white text-center" style={{fontsize: '38px !important',color:'white !important'}}>Best Digital Marketing Company in India</h3>
+          <h3 classname="fw-700  text-center best-dig" >Best Digital Marketing Company in India</h3>
           <p style={{fontSize: '16px !important', color:'white'}} classname="color-white py-3">For selling your product in the digital market your presence should be noticed by the target users on the internet.<br />
             Before and after launching of any digital product like E-Commerce Website, applications, services etc. people should know about your product so they can purchase your product at the right time.
             <br />
@@ -133,7 +133,7 @@ export default function Home() {
 <section style={{backgroundColor: '#213461 !important', paddingTop: '50px !important', marginTop: '80px !important'}}>
         <div classname="container-fluid pb-5">
           <h3 classname="text-center pb-5" style={{color: 'white !important', fontSize: '38px !important', fontWeight: 700}}>Digital Marketing Services</h3>
-          <div classname="row" style={{display:'flex'}}>
+          <div classname="row" >
             <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 ">
               <div classname="bg-warning text-center p-2 py-5">
                 <h4 style={{color: 'white !important'}}>Search engine Optimisation<br /> (SEO)</h4>
@@ -201,6 +201,12 @@ export default function Home() {
 
 <Footer />
 <style jsx>{`
+.best-dig{
+    font-size: 38px !important;color:white !important;
+}
+.topsect{
+    background:black !important;
+}
            .bg-warning{
                background:yellow !important;
                padding:20px;
