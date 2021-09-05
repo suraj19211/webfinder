@@ -3,6 +3,7 @@ import indx3 from '../style/index3.module.css'
 import { Navbar } from '../components/Navbar'
 import { Links } from '../components/Links'
 import { Footer } from '../components/Footer'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -43,13 +44,13 @@ export default function Home() {
         {/*------------------mobile started ---------------------------------*/}
         <div className="col-lg-7 col-xl-7 col-md-6 col-sm-12 col-12 d-block d-lg-none d-xl-none d-md-none">
           {/* <h1 class=" mt-3 py-5 text-uppercase home-head" style="color: white !important;font-size: 60px !important;font-weight: 800; line-height: 1.1;">Hi, We're<br> <a href="http://www.webfinder.in" class="key"> WebFinder </a></h1> */}
-          <h1 className=" mt-5 pt-5 text-capitalize home-head" style={{color: 'white !important', fontSize: '40px !important', fontWeight: 900, lineHeight: '1.1', paddingLeft: '2% !important'}}>Have an idea?</h1>
-          <h1 className=" anim  text-capitalize home-head" style={{color: 'white !important', fontSize: '38px !important', fontWeight: 700, lineHeight: '1.1', paddingLeft: '1% !important'}}> <span className="anim-content "> </span></h1>
-          <h2 className="text-capitalize  " style={{paddingRight: '7% !important', color: 'white !important', paddingBottom: '80px', paddingTop: '50px', fontFamily: '"Grenze Gotisch", cursive', paddingLeft: '2% !important', fontSize: '29px', fontWeight: 700}}> We Transform businesses into BRANDS through
+          <h1 className=" mt-5 pt-5 text-capitalize home-headm" >Have an idea?</h1>
+          <h1 className=" anim  text-capitalize home-headml" > <span className="anim-content "> </span></h1>
+          <h2 className="text-capitalize  home-web" > We Transform businesses into BRANDS through
             <a href="http://www.webfinder.in" className="key">web &amp; mobile app development</a>, <a href="http://www.webfinder.in" className="key">SEO</a>, <a href="http://www.webfinder.in" className="key"> Social Media Marketing</a> and <a href="http://www.webfinder.in" className="key">digital marketing
               services</a> </h2>
           <div style={{paddingLeft: '2% !important', marginTop: '10px !important'}}>
-            <a className="bg-warning" href="portfolio.php" style={{color: 'white !important', width: '100%', border: '3px solid white', padding: '10px 22px !important', fontSize: '26px !important', fontWeight: 700, textDecoration: 'none !important', backgroundColor: ''}}>View Portfolio →</a>
+            <a className="bg-warning portfolio-btn" href="portfolio.php" >View Portfolio →</a>
           </div>
         </div>{/*--------col end -----*/}
         {/*-----------------------*/}
@@ -151,7 +152,7 @@ export default function Home() {
      data-aos-duration="2000">
                 <div className="abt-block" style={{width:'440px'}} >
                     <h2 className="text-capitalize text-bold" style={{fontSize:'28px' }} >We are</h2><h4 className="text-warning" style={{fontSize: '40px'}} > <span>Webfinder</span></h4>
-                    <p className="color-warning" style={{width: '600px !important'}}>
+                    <p className="color-warning text-justify full-service" >
 Web finder is a full-service Internet marketing and SEO company offering innovative web marketing solutions to mid to large size companies across the globe. As a leader in SEO, web design, ecommerce, website conversion, and Internet marketing services, our firm prides ourselves on driving traffic, converting visitors, and measuring effectiveness to ultimately deliver real results for our clients.
 
 Web Finder is proficient website architecture and improvement, B2B Data, Market Research organization situated in India. Webfinder is an amazing specialist co-op for corporate or individual keen on structuring their plan and advancement needs of electronic tasks.</p>
@@ -169,7 +170,7 @@ Web Finder is proficient website architecture and improvement, B2B Data, Market 
                     <p className="color-warning text-justify px-3 width-100" >
 Web finder is a full-service Internet marketing and SEO company offering innovative web marketing solutions to mid to large size companies across the globe. As a leader in SEO, web design, ecommerce, website conversion, and Internet marketing services, our firm prides ourselves on driving traffic, converting visitors, and measuring effectiveness to ultimately deliver real results for our clients.
 </p>
-                    <div><a className="btn btn-warning color-white" href="https://www.codeaweb.com/contact-us"> CONTACT US</a></div>
+                    <div><Link href="contact"><a className="btn btn-warning color-white" > CONTACT US</a></Link></div>
                 </div>
             </div>
 
@@ -181,6 +182,31 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
 
 
 <style jsx>{`
+.full-service{
+  width: 600px !important;
+}
+.portfolio-btn{
+  color: white !important; width: 100%; 
+  border: 3px solid white; padding: 10px 22px !important;
+   font-size: 26px !important; font-weight: 700; 
+   text-decoration: none !important; 
+}
+.home-web{
+  padding-right: 7% !important; color: white !important;
+   padding-bottom: 80px; padding-top: 50px; 
+  font-family: "Grenze Gotisch"; cursive; 
+  padding-left: 2% !important; font-size: 29px; font-weight: 700;
+}
+.home-headml{
+  color: white !important;
+  font-size: 38px !important;font-weight: 700;
+  line-height: 1.1;padding-left: 1% !important;
+}
+.home-headm{
+  color: white !important; 
+  font-size: 40px !important; 
+  font-weight: 900; line-height: 1.1; padding-left: 2% !important;
+}
 .port-div{
   padding-left: 9% !important; margin-top: -40px !important;
 }
@@ -245,6 +271,18 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
   color: white !important; border: 3px solid white; padding: 10px 22px !important;
    font-size: 26px !important; font-weight: 700; text-decoration: none !important; 
 }       
+
+@media only screen and (max-width: 720px) {
+  .home-section {
+    height:80vh !important;
+    width:100%;
+    margin-left:0px;
+    padding-right:0px;
+    padding:0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('images/f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; }
+}
 .home-section {
           height:100vh;
           width:100%;
@@ -300,7 +338,7 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
           }
           .section-blk{
 
-            background-color: black !important;height: 100vh !important;margin-top: 70px !important;
+            background-color: black !important;height: 100vh !important;
           }
           .talk{
             color: white !important;border: 2px solid white;
@@ -380,8 +418,8 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
 
 
 
-      <section style={{marginTop: '70px'}}>
-        <div className="container-fluid d-none d-lg-block d-xl-block d-md-block" style={{paddingTop: '80px !important'}}>
+      <section style={{marginTop: '60px'}}>
+        <div className="container-fluid d-none d-lg-block d-xl-block d-md-block" style={{paddingTop: '50px !important'}}>
           <div className="row">
             <div className="col-lg-7 col-md-6" data-aos="fade-up" data-aos-offset={300} data-aos-easing="ease-in-sine" data-aos-duration={2000}>
               <div style={{paddingTop: '40px'}}>
@@ -393,7 +431,7 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
                 <h3 style={{color: 'black', fontSize: '34px', fontWeight: 700, textTransform: 'capitalize'}}>Website Design Tailored To Your Business Needs</h3>
                 <p className="text-left" style={{marginTop: '30px', fontSize: '18px'}}>You want a website that is customised to your specific requirements. That’s why we never use preset templates in web design. All our custom website designs are built from the ground up with your requirements in mind. We take the time to learn about your business, your customers, and specific needs so that your website is not only beautiful but also helpful to grow your business in a meaningful way.</p>			     
                 <div className="pt-3">
-                  <a href="contact.php" className="bg-warning border-dark" style={{color: 'white !important', padding: '10px 20px !important', fontSize: '18px', fontWeight: 700, textDecoration: 'none !important'}}>Get a Quote</a>
+                  <Link href="contact"><a  className="bg-warning border-dark quote-btn" >Get a Quote</a></Link>
                 </div>
               </div>{/*--------------*/}
             </div>{/*---------main---------*/}
@@ -406,7 +444,7 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
                 <h3 style={{color: 'black', fontSize: '34px', fontWeight: 700, textTransform: 'capitalize'}}>Website Design Tailored To Your Business Needs</h3>
                 <p className="text-left" style={{marginTop: '30px', fontSize: '18px'}}>You want a website that is customised to your specific requirements. That’s why we never use preset templates in web design. All our custom website designs are built from the ground up with your requirements in mind. We take the time to learn about your business, your customers, and specific needs so that your website is not only beautiful but also helpful to grow your business in a meaningful way.</p>			     
                 <div className="pt-3">
-                  <a href="contact.php" className="bg-warning border-dark" style={{color: 'white !important', padding: '10px 20px !important', fontSize: '18px', fontWeight: 700, textDecoration: 'none !important'}}>Get a Quote</a>
+                  <Link href="contact"><a  className=" border-dark quote-btn bg-warning" >Get a Quote</a></Link>
                 </div>
               </div>{/*--------------*/}
             </div>{/*---------main---------*/}
@@ -419,13 +457,24 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
         </div>
       </section>
  <Footer />
-
-
-<style global jsx>{`
+ <style jsx>{`
+a{
+  text-decoration:none;
+}
+.quote-btn{
+  color: white !important; padding: 10px 20px !important;
+   font-size: 18px; font-weight: 700;
+    text-decoration: none !important;
+}
 .home-head{
   color: white !important;
    font-size: 70px !important; font-weight: 800; line-height: 1.1; padding-left: 9% !important;
 }
+        
+      `}</style>
+
+<style global jsx>{`
+
          .fw-700{
           font-weight:700 !important;
         }

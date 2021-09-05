@@ -229,7 +229,7 @@ p{
     <div className="navbar-nav ml-auto" id="mydiv">
 
     <Link href="/digital-marketing"><a className="nav-item nav-link">Digital Marketing</a></Link>
-            <Link href="/portfolio"><a className="nav-item nav-link">Portfolio</a></Link>
+            {/* <Link href="/portfolio"><a className="nav-item nav-link">Portfolio</a></Link> */}
 
     <Link href="/services"><a className="nav-item nav-link">Services</a></Link>
 
@@ -241,11 +241,11 @@ p{
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
         	         
-          <Link href="/web-development"><a className="dropdown-item" >Web Development</a></Link>
-                    <div className="dropdown-divider"></div>
+          {/* <Link href="/web-development"><a className="dropdown-item" >Web Development</a></Link> */}
+                    {/* <div className="dropdown-divider"></div>
 
           <Link href="/ecommerce-development"><a className="dropdown-item" >Ecommerce Development</a></Link>
-          <div className="dropdown-divider"></div>
+          <div className="dropdown-divider"></div> */}
           <Link href="/digital-marketing"><a className="dropdown-item">Digital Marketing</a></Link>
 
         </div>

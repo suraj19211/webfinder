@@ -3,12 +3,15 @@ import indx3 from '../style/index3.module.css'
 import { Navbar } from '../components/Navbar'
 import { Links } from '../components/Links'
 import { Footer } from '../components/Footer'
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="">
       <Head>
        <Links />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></link>
+
        </Head>
       <main>
       <Navbar />
@@ -54,31 +57,31 @@ export default function Home() {
 </div>
 
 
-<div className="col-lg-12 col-md-12 pt-5">
+<div className="col-lg-12 col-md-12 pt-5 table-responsive ">
 
-	<table className="table table-bordered table-responsive">
+	<table className="table table-bordered ">
 		
 		<tr>
-			<td style={{width: '18% !important'}} className="color-white text-center table-tr">
+			<td  className="color-white text-center table-tr">
 				SEO
 			</td>
-			<td style={{width: '18% !important'}} className="color-white text-center table-tr">PPC</td>
-			<td style={{width: '18% !important'}} className="color-white text-center table-tr">SMO</td>
-			<td style={{width: '23% !important'}} className="color-white text-center table-tr">
+			<td  className="color-white text-center table-tr">PPC</td>
+			<td  className="color-white text-center table-tr">SMO</td>
+			<td  className="color-white text-center table-tr">
 				Content Marketing
 			</td>
-			<td style={{width: '23% !important'}} className="color-white text-center table-tr">FB Page Marketing</td>
+			<td  className="color-white text-center table-tr">FB Page Marketing</td>
 		</tr>
 		<tr>
-			<td style={{width: '20% !important'}} className="color-white text-center table-tr">
+			<td  className="color-white text-center table-tr">
 				Youtube Marketing
 			</td>
-			<td style={{width: '20% !important'}} className="color-white text-center table-tr">Linkedin Marketing</td>
-			<td style={{width: '20% !important'}} className="color-white text-center table-tr">Google Analytics</td>
-			<td style={{width: '20% !important'}} className="color-white text-center table-tr">
+			<td  className="color-white text-center table-tr">Linkedin Marketing</td>
+			<td  className="color-white text-center table-tr">Google Analytics</td>
+			<td  className="color-white text-center table-tr">
 				Online Reputation 
 			</td>
-			<td style={{width: '20% !important'}} className="color-white text-center table-tr">Lead Generation</td>
+			<td  className="color-white text-center table-tr">Lead Generation</td>
 		</tr>
 
 	</table>
@@ -89,32 +92,31 @@ export default function Home() {
     </div>
 </section>
 
-<div className="container py-3 mx-auto">
-	<img className="d-block mx-auto width-100" src="images/icon/sc.png"/>
-</div>
 
-<section className="  px-1 bg-dark" style={{marginTop: '20px !important'}}>
+
+<section className="  px-1 bg-dark py-5" style={{marginTop: 'px !important'}}>
 	<div className="container py-5" id="sect" >
 		
-		<div className="row">
-			<div className="col-lg-6 col-md-5 d-block d-lg-none d-md-none d-xl-none mb-4">
- 	        <div>
+	<div className="col-lg-6 col-md-5 d-block d-lg-none d-md-none d-xl-none mb-4">
+ 	        
  		<img src="images/icon/bdm.png" width="100%" height="auto"/>
-
- 	        </div>
             </div>
+
+		<div className="row">
+
+		
  
- <div classname="col-lg-6 col-md-7 col-12 col-sm-12">
+ <div className="col-lg-6 col-md-7 col-12 col-sm-12 d-flex" >
         <div>
-          <h3 classname="fw-700  text-center best-dig" >Best Digital Marketing Company in India</h3>
-          <p style={{fontSize: '16px !important', color:'white'}} classname="color-white py-3">For selling your product in the digital market your presence should be noticed by the target users on the internet.<br />
+          <h3 className="fw-700  text-center text-light"  style={{color:'white',fontWeight:'700'}}>Best Digital Marketing Company in India</h3>
+          <p style={{fontSize: '16px !important', color:'white'}} className="color-white py-3 text-justify">For selling your product in the digital market your presence should be noticed by the target users on the internet.<br />
             Before and after launching of any digital product like E-Commerce Website, applications, services etc. people should know about your product so they can purchase your product at the right time.
             <br />
             There is user traffic which has to be generated to sell your product online. Traffic can be generated either through an organic way or a paid way.<br />
             Verve Logic provides solutions for both but we prefer the organic way due to its long term benefits.
             <br />
             Organic traffic can be generated through various ways like website submission to various search engines, blogs, social media like Facebook, Twitter, Youtube, Google Circle etc. Paid traffic is done through ad campaigning etc.</p>
-          <a href="contact.php" className="contact-href" >Get in Touch <span style={{fontSize: '28px !important'}}>→</span></a>
+          <Link href="/contact"><a  className=" btn btn-light py-2 px-5" style={{fontSize:'30px'}}>Get in Touch <span style={{fontSize: '28px !important'}}>→</span></a></Link>
         </div>
       </div>
 
@@ -129,81 +131,101 @@ export default function Home() {
 
 	</div>
 </section>
-
-<section style={{backgroundColor: '#213461 !important', paddingTop: '50px !important', marginTop: '80px !important'}}>
-        <div classname="container-fluid pb-5">
-          <h3 classname="text-center pb-5" style={{color: 'white !important', fontSize: '38px !important', fontWeight: 700}}>Digital Marketing Services</h3>
-          <div classname="row" >
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 ">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Search engine Optimisation<br /> (SEO)</h4>
+<div className="container py-3 mx-auto">
+	<img className="d-block mx-auto width-100" src="images/icon/sc.png"/>
+</div>
+<section className="pt-5 pb-4 mb-5 digital-section">
+        <div className="container-fluid pb-5">
+          <h3 className="text-center pb-5 color-white" style={{ fontSize: '38px !important', fontWeight: 700}}>Digital Marketing Services</h3>
+          <div className="row" >
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5 ">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Search engine Optimisation<br /> (SEO)</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Social Media Marketing<br /> (SMM)</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Social Media Marketing<br /> (SMM)</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Pay Per Click<br /> (PPC)</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Pay Per Click<br /> (PPC)</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Online Reputation Management </h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Online Reputation Management </h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>FB Page Management</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">FB Page Management</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Twitter Account Management</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Twitter Account Management</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Google Adwords</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Google Adwords</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Google Analytics</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Google Analytics</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>YouTube Channel Management</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">YouTube Channel Management</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Linkedin Account Management</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Linkedin Account Management</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Conversion Rate Optimisation Services</h4>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Conversion Rate Optimisation Services</h4>
               </div>
             </div>
-            <div classname="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-              <div classname="bg-warning text-center p-2 py-5">
-                <h4 style={{color: 'white !important'}}>Discuss Project</h4><br />
-                <a href="contact.php" style={{color: '#ffc107 !important', backgroundColor: 'white !important', borderRadius: '25px !important', textDecoration: 'none !important', padding: '8px 18px !important', fontWeight: '700 !important'}}>LET'S TALK</a>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
+              <div className=" text-center box shadow px-1 py-5">
+                <h4 className="title-seo">Discuss Project</h4>
+                <Link href="contact"><a className="talk-btn">LET'S TALK<span style={{fontSize: '28px !important'}}>→</span></a></Link>
               </div>
             </div>
           </div>{/*-----------row----------*/}
         </div>
       </section>
 
-<Footer />
-<style jsx>{`
-.best-dig{
-    font-size: 38px !important;color:white !important;
+      <style jsx>{`
+ .digital-section{
+   background:#3e3e3e;
+ }
+      .talk-btn{
+        color: black !important; background-color: white !important;
+         border-radius: 25px !important;
+         text-decoration: none !important; 
+         margin-top:8px;
+         padding: 8px 18px !important; font-weight: 700 !important;
+      }
+
+.box{
+  border-radius:10px;
+  height:23vh;
+  background:#2e2e2e;
+  border:1px solid #3e3e3e;
 }
+
+.title-seo{
+  color:white;
+}
+
 .topsect{
     background:black !important;
 }
@@ -236,6 +258,9 @@ export default function Home() {
           color:white !important;
         }
       `}</style>
+
+<Footer />
+
         </main>
     </div>
 
