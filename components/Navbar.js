@@ -217,11 +217,15 @@ p{
 
   <Head>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Best Web Development & Digital Marketing Company In Dehradun - Webfinder.in</title>
+  <meta name="description" content="500+ Happy Clients | Top best Web Development company in Dehradun Uttarakhand, SEO Services ,ecommerce Development, Web Designing, Digital Marketing Company in Dehradun" /> 
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"></link>
   		 <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"></link>
            <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet"></link>
            <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet"></link>
+           <meta name="keywords" content="Top best web development company in Dehradun India, Web development, Web designing, SEO services in Dehradun, website offers in Dehradun,  best website development company Dehradun, PHP development company, Website designing company, digital Marketing company in Dehradun,  ecommerce development company, best ecommerce development company in Dehradun India, list of web development companies in Dehradun, Web Development Company in Rishikesh, Web Development Company in Haridwar, Best SEO Company in Rishikesh, Website Designer in Rishikesh, Digital Marketing Company in Rishikesh" />
 
   		 <link type = "image/x-icon" rel = "icon" href = "images/fc.jpg"></link>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -233,8 +237,6 @@ p{
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></link>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
 
-        <title>Best Web Development & Digital Marketing Company In Dehradun - Webfinder.in</title>
-        <meta name="description" content="500+ Happy Clients | Top best Web Development company in Dehradun Uttarakhand, SEO Services ,ecommerce Development, Web Designing, Digital Marketing Company in Dehradun" /> 
 
         <link rel="icon" href="/favicon.ico"></link>
   </Head>
