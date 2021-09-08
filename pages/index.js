@@ -1,18 +1,11 @@
 import Head from 'next/head';
-import indx3 from '../style/index3.module.css'
-import { Navbar } from '../components/Navbar'
-import { Links } from '../components/Links'
-import { Footer } from '../components/Footer'
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="">
-      <Head>
-       <Links />
-       </Head>
+      
       <main>
-      <Navbar />
 
 
       <section style={{width: '100%', paddingBottom: '100px !important', paddingTop: '20px !important', height: '100vh !important'}} className="home-section">
@@ -456,7 +449,6 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
           </div>
         </div>
       </section>
- <Footer />
  <style jsx>{`
 a{
   text-decoration:none;

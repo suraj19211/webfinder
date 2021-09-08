@@ -1,21 +1,13 @@
-import Head from 'next/head';
-import indx3 from '../style/index3.module.css'
-import { Navbar } from '../components/Navbar'
-import { Links } from '../components/Links'
-import { Footer } from '../components/Footer'
+
 
 export default function Home() {
   return (
     <div className="">
-      <Head>
-       <Links />
-       </Head>
+    
       <main>
-      <Navbar />
     
 
       
-    <Footer />   
        
 
 <style global jsx>{`

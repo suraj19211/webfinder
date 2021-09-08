@@ -1,20 +1,10 @@
-import Head from 'next/head'
-import indx3 from '../style/index3.module.css'
-import { Navbar } from '../components/Navbar'
-import { Links } from '../components/Links'
-import { Footer } from '../components/Footer'
-import Link from 'next/link';
+import Link from "next/link"
 
 export default function Home() {
   return (
     <div className="">
-      <Head>
-       <Links />
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></link>
-
-       </Head>
+      
       <main>
-      <Navbar />
 
 
       <section className="topsect" >
@@ -259,7 +249,6 @@ export default function Home() {
         }
       `}</style>
 
-<Footer />
 
         </main>
     </div>
