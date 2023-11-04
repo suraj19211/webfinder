@@ -106,7 +106,7 @@ export default function Home() {
             Verve Logic provides solutions for both but we prefer the organic way due to its long term benefits.
             <br />
             Organic traffic can be generated through various ways like website submission to various search engines, blogs, social media like Facebook, Twitter, Youtube, Google Circle etc. Paid traffic is done through ad campaigning etc.</p>
-          <Link href="/contact"><a  className=" btn btn-light py-2 px-5" style={{fontSize:'30px'}}>Get in Touch <span style={{fontSize: '28px !important'}}>→</span></a></Link>
+          <Link legacyBehavior href="/contact"><a  className=" btn btn-light py-2 px-5" style={{fontSize:'30px'}}>Get in Touch <span style={{fontSize: '28px !important'}}>→</span></a></Link>
         </div>
       </div>
 
@@ -186,7 +186,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-5">
               <div className=" text-center box shadow px-1 py-5">
                 <h4 className="title-seo">Discuss Project</h4>
-                <Link href="contact"><a className="talk-btn">LET'S TALK<span style={{fontSize: '28px !important'}}>→</span></a></Link>
+                <Link legacyBehavior href="contact"><a className="talk-btn">LET'S TALK<span style={{fontSize: '28px !important'}}>→</span></a></Link>
               </div>
             </div>
           </div>{/*-----------row----------*/}
