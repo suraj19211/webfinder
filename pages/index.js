@@ -163,7 +163,7 @@ Web Finder is proficient website architecture and improvement, B2B Data, Market 
                     <p className="color-warning text-justify px-3 width-100" >
 Web finder is a full-service Internet marketing and SEO company offering innovative web marketing solutions to mid to large size companies across the globe. As a leader in SEO, web design, ecommerce, website conversion, and Internet marketing services, our firm prides ourselves on driving traffic, converting visitors, and measuring effectiveness to ultimately deliver real results for our clients.
 </p>
-                    <div><Link legacyBehavior href="contact"><a className="btn btn-warning color-white" > CONTACT US</a></Link></div>
+                    <div><Link href="contact"><a className="btn btn-warning color-white" > CONTACT US</a></Link></div>
                 </div>
             </div>
 
@@ -385,8 +385,8 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
 
  <h3 className="text-capitalize fw-700 color-white" style={{fontSize: '40px'}}>An experienced and trusted digital agency</h3>
  <hr className="mt-4" style={{borderTop: '4px solid white !important'}}/>
- <p className="color-white" style={{marginTop: '25px !important',fontSize:'24px'}}>Our ability to build on any platform willingness to adapt to the client’s needs make us the ideal web solutions provider. Working with Webfinder means you can be as hands-on as you wish! While we do have our own growth in mind, our main focus is always to add value to our customers by refining their ideas and realising their goals through our decade-long expertise and experience.</p>
- <img src="images/icon/counterback.jpg" width="100%" height="400" style={{objectFit:'cover',marginTop:'5%'}}/>
+ <p className="color-white" style={{marginTop: '25px !important'}}>Our ability to build on any platform willingness to adapt to the client’s needs make us the ideal web solutions provider. Working with Webfinder means you can be as hands-on as you wish! While we do have our own growth in mind, our main focus is always to add value to our customers by refining their ideas and realising their goals through our decade-long expertise and experience.</p>
+ <img src="images/icon/counterback.jpg" width="100%" height="400"/>
 	</div>
 	
 </div>
@@ -424,7 +424,7 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
                 <h3 style={{color: 'black', fontSize: '34px', fontWeight: 700, textTransform: 'capitalize'}}>Website Design Tailored To Your Business Needs</h3>
                 <p className="text-left" style={{marginTop: '30px', fontSize: '18px'}}>You want a website that is customised to your specific requirements. That’s why we never use preset templates in web design. All our custom website designs are built from the ground up with your requirements in mind. We take the time to learn about your business, your customers, and specific needs so that your website is not only beautiful but also helpful to grow your business in a meaningful way.</p>			     
                 <div className="pt-3">
-                  <Link legacyBehavior href="contact"><a  className="bg-warning border-dark quote-btn" >Get a Quote</a></Link>
+                  <Link href="contact"><a  className="bg-warning border-dark quote-btn" >Get a Quote</a></Link>
                 </div>
               </div>{/*--------------*/}
             </div>{/*---------main---------*/}
@@ -437,7 +437,7 @@ Web finder is a full-service Internet marketing and SEO company offering innovat
                 <h3 style={{color: 'black', fontSize: '34px', fontWeight: 700, textTransform: 'capitalize'}}>Website Design Tailored To Your Business Needs</h3>
                 <p className="text-left" style={{marginTop: '30px', fontSize: '18px'}}>You want a website that is customised to your specific requirements. That’s why we never use preset templates in web design. All our custom website designs are built from the ground up with your requirements in mind. We take the time to learn about your business, your customers, and specific needs so that your website is not only beautiful but also helpful to grow your business in a meaningful way.</p>			     
                 <div className="pt-3">
-                  <Link legacyBehavior href="contact"><a  className=" border-dark quote-btn bg-warning" >Get a Quote</a></Link>
+                  <Link href="contact"><a  className=" border-dark quote-btn bg-warning" >Get a Quote</a></Link>
                 </div>
               </div>{/*--------------*/}
             </div>{/*---------main---------*/}

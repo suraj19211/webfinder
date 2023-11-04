@@ -1,51 +1,6 @@
 
-// Your component in pages/index.js
-import { useState } from 'react';
-
 
 export default function Home() {
-  const [formState, setFormState] = useState({
-    iname: '',
-    icontact: '',
-    iemail: '',
-    iquery: '',
-  });
-
-  const handleChange = (e) => {
-    setFormState({ ...formState, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      // Send the form data directly to your API using fetch
-      const response = await fetch('https://mysticalvalleyreality.in/webfinderdata.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formState),
-      });
-
-      if (response.ok) {
-        // Reset the form after successful submission
-        setFormState({
-          iname: '',
-          icontact: '',
-          iemail: '',
-          iquery: '',
-        });
-        alert('Form submitted successfully.');
-      } else {
-        alert('Form submission failed.');
-      }
-    } catch (error) {
-      console.error(error);
-      alert('Form submission failed.');
-    }
-  };
-
   return (
     <div className="">
      
@@ -65,7 +20,7 @@ export default function Home() {
                 <h4>
                   Contact:
                 </h4>
-                <p style={{color: 'white !important'}}>+91 (124) 301-2575</p>
+                <p style={{color: 'white !important'}}>+91-9639150397</p>
               </div>
             </div>
             <div className=" col-lg-4 col-md-4 col-sm-12 col-12">
@@ -92,64 +47,25 @@ export default function Home() {
               <div>
                 {/*?php include("Connection.php"); ?*/}
                 <h1 className="text-center text-uppercase pb-4">Connect With Us</h1>
-
-                <form onSubmit={handleSubmit}>
-      {/* Include your form input fields with appropriate names and value attributes */}
-      <div className="form-group">
-      <input
-        type="text"
-        name="iname"
-        value={formState.iname}
-        onChange={handleChange}
-        placeholder="Name"
-        style={{height: '50px !important'}}
-        className=" form-control  mx-auto"
-      />
-      </div>
-
-      <div className="form-group">
-      <input
-        type="text"
-        name="icontact"
-        value={formState.icontact}
-        onChange={handleChange}
-        placeholder="Contact"
-        style={{height: '50px !important'}}
-        className=" form-control  mx-auto"
-      />
-      </div>
-
-      <div className="form-group">
-      <input
-        type="text"
-        name="iemail"
-        value={formState.iemail}
-        onChange={handleChange}
-        placeholder="Email"
-        style={{height: '50px !important'}}
-        className=" form-control  mx-auto"
-      />
-                          <small id="emailHelp" className="form-text text-muted text-center">We'll never share your email with anyone else.</small>
-
-      </div>
-
-      <div className="form-group">
- 
-         <textarea
-        name="iquery"
-        rows="6"
-        className=" form-control  mx-auto" 
-        cols="60"
-        value={formState.iquery}
-        onChange={handleChange}
-        placeholder="Describe Your Query"
-
-        required
-      ></textarea>
-      </div>
-      {/* Add other form fields similarly */}
-      <button type="submit" className=" submit-btn">Submit</button>
- </form>
+                <form className="form-validate " method="POST" action="">
+                  <div className="form-group">
+                   
+                    <input type="text" name="iname" id="namE"  style={{height: '50px !important'}} className=" form-control  mx-auto" placeholder="Name" />
+                  </div>
+                  <div className="form-group">
+                    <input type="text" name="icontact" id="contacT"  style={{height: '50px !important'}} className=" form-control  mx-auto" placeholder="Contact-no" />
+                  </div>
+                  <div className="form-group">
+                    <input type="text" id="emaiL" name="iemail"  style={{height: '50px !important'}} className=" form-control  mx-auto" placeholder="E-mail:" />
+                    <small id="emailHelp" className="form-text text-muted text-center">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div className="form-group">
+                    <textarea cols="60" rows="6" type="text"  className=" form-control  mx-auto" id="texT" placeholder="Describe your Query:" name="iquery"></textarea>
+                  </div>
+                  <div className="justify-content-center form-group text-center ">
+                    <input type="Submit" className=" submit-btn" name="isubmit" defaultValue="submit"  />
+                  </div> 
+                </form> 
               </div>
             </div>
             <div className="col-lg-7 col-md-7 ">

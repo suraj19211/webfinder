@@ -222,9 +222,9 @@ p{
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"></link>
-  		 <link legacyBehavior href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"></link>
-           <link legacyBehavior href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet"></link>
-           <link legacyBehavior href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet"></link>
+  		 <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"></link>
+           <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet"></link>
+           <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet"></link>
            <meta name="keywords" content="Top best web development company in Dehradun India, Web development, Web designing, SEO services in Dehradun, website offers in Dehradun,  best website development company Dehradun, PHP development company, Website designing company, digital Marketing company in Dehradun,  ecommerce development company, best ecommerce development company in Dehradun India, list of web development companies in Dehradun, Web Development Company in Rishikesh, Web Development Company in Haridwar, Best SEO Company in Rishikesh, Website Designer in Rishikesh, Digital Marketing Company in Rishikesh" />
 
   		 <link type = "image/x-icon" rel = "icon" href = "images/fc.jpg"></link>
@@ -245,19 +245,19 @@ p{
 
 	     
 		 <div className="container-fluid">
-		      <Link legacyBehavior href="/"><a className="navbar-brand d-none d-lg-block d-xl-block "><img src="images/lo.png" height="90px" width="340px"/></a></Link>
+		      <Link href="/"><a className="navbar-brand d-none d-lg-block d-xl-block "><img src="images/lo.png" height="90px" width="340px"/></a></Link>
 		      
-		      <Link legacyBehavior href="/"><a className="navbar-brand d-block d-lg-none d-xl-none d-md-block" ><img className="img-bgk" src="images/bgk.png" /></a></Link>
+		      <Link href="/"><a className="navbar-brand d-block d-lg-none d-xl-none d-md-block" ><img className="img-bgk" src="images/bgk.png" /></a></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-label="Toggle navigation">
     <span className=""><img src="images/menu.png" height="30px" width="30px"/></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav ml-auto" id="mydiv">
 
-    <Link legacyBehavior href="/digital-marketing"><a className="nav-item nav-link">Digital Marketing</a></Link>
-            {/* <Link legacyBehavior href="/portfolio"><a className="nav-item nav-link">Portfolio</a></Link> */}
+    <Link href="/digital-marketing"><a className="nav-item nav-link">Digital Marketing</a></Link>
+            {/* <Link href="/portfolio"><a className="nav-item nav-link">Portfolio</a></Link> */}
 
-    <Link legacyBehavior href="/services"><a className="nav-item nav-link">Services</a></Link>
+    <Link href="/services"><a className="nav-item nav-link">Services</a></Link>
 
 
 
@@ -267,21 +267,21 @@ p{
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
         	         
-          {/* <Link legacyBehavior href="/web-development"><a className="dropdown-item" >Web Development</a></Link> */}
+          {/* <Link href="/web-development"><a className="dropdown-item" >Web Development</a></Link> */}
                     {/* <div className="dropdown-divider"></div>
 
-          <Link legacyBehavior href="/ecommerce-development"><a className="dropdown-item" >Ecommerce Development</a></Link>
+          <Link href="/ecommerce-development"><a className="dropdown-item" >Ecommerce Development</a></Link>
           <div className="dropdown-divider"></div> */}
-          <Link legacyBehavior href="/digital-marketing"><a className="dropdown-item">Digital Marketing</a></Link>
+          <Link href="/digital-marketing"><a className="dropdown-item">Digital Marketing</a></Link>
 
         </div>
       </li>
 
      
-<Link legacyBehavior href="/pricing"><a className="nav-item nav-link" >Pricing</a></Link>
- <Link legacyBehavior href="/about"><a className="nav-item nav-link" >About </a></Link>
+<Link href="/pricing"><a className="nav-item nav-link" >Pricing</a></Link>
+ <Link href="/about"><a className="nav-item nav-link" >About </a></Link>
 
-    <Link legacyBehavior href="/contact"><a className="nav-item nav-link  contact"  style={{color:'white !important'}}>Contact Us</a></Link>
+    <Link href="/contact"><a className="nav-item nav-link  contact"  style={{color:'white !important'}}>Contact Us</a></Link>
 
       
       
