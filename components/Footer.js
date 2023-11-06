@@ -72,7 +72,7 @@ const Footer = () => {
                   <li style={{color:'white'}}>
                     <span style={{color: 'white'}}>
                     P301, 3rd Floor, Doon Business Park, Transport Nagar, Dehradun - 248001<br></br>
-call: +91 (124) 301-2575 <br></br> Mail: info@webfinder.in
+call: +91 9368620233 <br></br> Mail: info@webfinder.in
                     </span>
                   </li>
                 </ul>
