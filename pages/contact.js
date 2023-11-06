@@ -65,7 +65,7 @@ export default function Home() {
                 <h4>
                   Contact:
                 </h4>
-                <p style={{color: 'white !important'}}>+91 (124) 301-2575</p>
+                <p style={{color: 'white !important'}}>+91 9368620233</p>
               </div>
             </div>
             <div className=" col-lg-4 col-md-4 col-sm-12 col-12">
